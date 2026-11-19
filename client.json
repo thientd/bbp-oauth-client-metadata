@@ -1,0 +1,14 @@
+{
+  "client_id": "https://raw.githubusercontent.com/thientd/bbp-oauth-client-metadata/main/client.json",
+  "client_name": "Security research client (HackerOne taducthien1989)",
+  "client_uri": "https://github.com/thientd/bbp-oauth-client-metadata",
+  "redirect_uris": [
+    "https://thientd.github.io/bbp-oauth-client-metadata/cb",
+    "https://raw.githubusercontent.com/thientd/bbp-oauth-client-metadata/main/cb"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "mcp:tools mcp:resources",
+  "application_type": "web"
+}
